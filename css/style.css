@@ -121,17 +121,18 @@ body {
   transform: translate(-50%, -50%)
 }
 
-.page-main-top h3 {
+.page-main-top h2 {
   color: #000000;
 }
 
-.page-main-top h4 {
+.page-main-top h3 {
   color:#808080;
 }
 
 .page-main-bottom {
   width: 85%;
   margin: 0 auto;
+  border-bottom: 1px inset #808080;
 }
 
 .page-main-bottom img {
@@ -148,9 +149,19 @@ height: 215px;
   float: left;
   width: 33%;
   margin-top: 20px;
+  margin-bottom: 100px;
+  padding: 10px;
   text-align: center;
 }
 
-.col h3 {
+.col h4 {
   color: #7BBC00;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.col p {
+  font-size: 20px;
+  color: #808080;
 }
